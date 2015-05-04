@@ -13,6 +13,16 @@ class Api::V1::EventsController < ApplicationController
     end
   end
 
+  def update
+    @event = Event.find(params[:id])
+    unless @event.update(event_params)
+      render json: {
+        message: "Validation Failed",
+        errors: @event.errors.full_messages
+      }, status: 422
+    end
+  end
+
   private
   def event_params
     {

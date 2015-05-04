@@ -6,6 +6,6 @@ FactoryGirl.define do
     lon(-73.9562990)
     name "MyString"
     started_at "2015-05-02 11:33:43"
-    association :owner
+    association :owner, factory: :user
   end
 end
