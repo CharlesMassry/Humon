@@ -38,8 +38,8 @@ describe "POST /v1/events" do
          id: event.owner.id
        },
        started_at: event.started_at
-     }.to_json,
-     set_headers(event.owner.device_token)
+    }.to_json,
+    set_headers(event.owner.device_token)
 
      event.reload
      expect(event.name).to_not be nil

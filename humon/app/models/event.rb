@@ -8,4 +8,6 @@ class Event < ActiveRecord::Base
   validates :lat, presence: true
   validates :lon, presence: true
   validates :started_at, presence: true
+
+  reverse_geocoded_by :lat, :lon
 end
