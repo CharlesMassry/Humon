@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  EventViewController.h
 //  Humon
 //
 //  Created by Charlie Massry on 5/4/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface EventViewController : UITableViewController
 
 @end
-

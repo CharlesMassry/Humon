@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2E38A1B7-9B77-48D9-A6C1-7613AFB7B9E4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Humon</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>F638AF1962E6F4942F64295683440CCB1A375B10</key>
+		<string>https://github.com/CharlesMassry/Humon.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOS/Humon/Humon.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>F638AF1962E6F4942F64295683440CCB1A375B10</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/CharlesMassry/Humon.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>F638AF1962E6F4942F64295683440CCB1A375B10</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F638AF1962E6F4942F64295683440CCB1A375B10</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Humon</string>
+		</dict>
+	</array>
+</dict>
+</plist>
