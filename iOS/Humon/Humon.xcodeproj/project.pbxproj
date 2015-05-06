@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		353235511AFAA14D00D09539 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 353235501AFAA14D00D09539 /* Event.m */; };
+		353235541AFAB77800D09539 /* NSDateFormatter+DefaultDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 353235531AFAB77800D09539 /* NSDateFormatter+DefaultDateFormatter.m */; };
 		354815D11AF873D000F1D5B1 /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 354815D01AF873D000F1D5B1 /* EventViewController.m */; };
 		354815D41AF87BE200F1D5B1 /* RailsClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 354815D31AF87BE200F1D5B1 /* RailsClient.m */; };
 		35E29AC51AF985AB0071B89C /* UserSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 35E29AC41AF985AB0071B89C /* UserSession.m */; };
@@ -30,6 +32,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3532354F1AFAA14D00D09539 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Event.h; path = Models/Event.h; sourceTree = "<group>"; };
+		353235501AFAA14D00D09539 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Event.m; path = Models/Event.m; sourceTree = "<group>"; };
+		353235521AFAB77800D09539 /* NSDateFormatter+DefaultDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+DefaultDateFormatter.h"; sourceTree = "<group>"; };
+		353235531AFAB77800D09539 /* NSDateFormatter+DefaultDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+DefaultDateFormatter.m"; sourceTree = "<group>"; };
 		354815CF1AF873D000F1D5B1 /* EventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventViewController.h; path = Controllers/EventViewController.h; sourceTree = "<group>"; };
 		354815D01AF873D000F1D5B1 /* EventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventViewController.m; path = Controllers/EventViewController.m; sourceTree = "<group>"; };
 		354815D21AF87BE200F1D5B1 /* RailsClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RailsClient.h; sourceTree = "<group>"; };
@@ -72,6 +78,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3532354E1AFAA12A00D09539 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3532354F1AFAA14D00D09539 /* Event.h */,
+				353235501AFAA14D00D09539 /* Event.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		35E29AC21AF9858B0071B89C /* Services */ = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +94,8 @@
 				354815D31AF87BE200F1D5B1 /* RailsClient.m */,
 				35E29AC31AF985AB0071B89C /* UserSession.h */,
 				35E29AC41AF985AB0071B89C /* UserSession.m */,
+				353235521AFAB77800D09539 /* NSDateFormatter+DefaultDateFormatter.h */,
+				353235531AFAB77800D09539 /* NSDateFormatter+DefaultDateFormatter.m */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -106,6 +123,7 @@
 		35F29A1C1AF8444300AE0513 /* Humon */ = {
 			isa = PBXGroup;
 			children = (
+				3532354E1AFAA12A00D09539 /* Models */,
 				35E29AC21AF9858B0071B89C /* Services */,
 				35F29A461AF86CDA00AE0513 /* Controllers */,
 				35F29A211AF8444300AE0513 /* AppDelegate.h */,
@@ -311,6 +329,8 @@
 				354815D11AF873D000F1D5B1 /* EventViewController.m in Sources */,
 				35F29A231AF8444300AE0513 /* AppDelegate.m in Sources */,
 				35F29A201AF8444300AE0513 /* main.m in Sources */,
+				353235541AFAB77800D09539 /* NSDateFormatter+DefaultDateFormatter.m in Sources */,
+				353235511AFAA14D00D09539 /* Event.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
